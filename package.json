@@ -1,0 +1,24 @@
+{
+  "name": "cheatsheets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhansart/Cheatsheets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhansart/Cheatsheets/issues"
+  },
+  "homepage": "https://github.com/mhansart/Cheatsheets#readme",
+  "dependencies": {
+    "highlight.js": "^10.1.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}
