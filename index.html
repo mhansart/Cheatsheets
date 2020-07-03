@@ -15,23 +15,36 @@
       Le langage html est la base visuelle d'un site web. Il sert a écrire le
       contenu d'un site. C'est un langage de balise, soit en ligne, soit en
       bloc. Dans sa forme la plus simple, Il est écrit en noir sur fond blanc,
-      avec quelques propriétés de style en fonction des différentes balises.
+      avec quelques propriétés de style en fonction des différentes balises. Par
+      exemple, suivant l'importance du titre, la taille de la police sera plus
+      grande et sera en gras. Les liens seront soulignés et de couleur bleue,...
     </p>
     <h2>Les balises et attributs</h2>
+
+    Les balises servent à délimiter les différents containeurs des textes ou images du html. Elles sont toutes différentes et correspondent chacunes à un morceau différent de la page.
+    On peut également leur assigner des attributs. Voici quelques exemples : 
     <pre>
       <code>
-        <header></header>
-        <main></main>
-        <footer></footer>
+        <i class=""></i>
+        <i id=""></i>
+        <i name=""></i>
+        <i title=""></i>
       </code>
     </pre>
     <h2>La structure de base</h2>
     <article>
       <p>
-        Un fichier HTML est composé d'un "head" avec toutes les infos qui ne
+        Un fichier HTML est composé d'une balise "head" avec toutes les infos qui ne
         seront pas visibles sur la page web, le titre de la page, le lien vers
-        la page css,..., et d'un body, qui sera le corps de la page HTML. Le
-        body peut être composé de différentes balises "header", "main", "footer"
+        la page css,..., et d'un "body", qui sera le corps de la page HTML. Le
+        "body" peut être composé de différentes balises: 
+        <pre>
+          <code>
+            <header></header>
+            <main></main>
+            <footer></footer>
+          </code>
+        </pre>
         par exemple, mais qui ne sont pas obligatoires.
       </p>
     </article>
@@ -63,6 +76,7 @@
         <em></em>
         <strong></strong>
         <br>
+        <input type="text">
       </code>
     </pre>
     <h2>Ressources</h2>
